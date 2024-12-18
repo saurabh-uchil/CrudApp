@@ -1,0 +1,48 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+ background-color:#DA291C;	
+}
+
+nav{
+	background-color:#FBE122;
+	color: #DA291C;	
+	height: 50px;
+	padding: 10px;
+	text-align: center;
+}
+
+h3{
+	margin-top:15px;
+	font-style: italic;
+}
+
+form{
+	margin: 20px;
+}
+
+.find, .update, .delete{
+	border: 2px solid #FBE122;
+	padding: 10px;
+	color: white;
+	font-weight: 600;
+	font-style: italic;
+	width: 30%;
+}
+
+input{
+	width: 150px;
+	height: 30px;
+	margin: 10px;
+}
+
+button{
+	width: 100px;
+	height: 30px;
+	padding:5px;
+	border: 2px solid #FBE122;
+	border-radius: 5px;
+}
