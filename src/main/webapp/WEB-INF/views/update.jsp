@@ -17,7 +17,7 @@
 		<h3>"You have to fight to reach your dream. You have to sacrifice and work hard for it." - Lionel Messi</h3>
 	</div>
 	
-		<form action="addPlayers">
+		<form action="updatePlayer" method="post">
 			<div>
 				<div class="form-element">
 					<label class="label">Id</label> 
