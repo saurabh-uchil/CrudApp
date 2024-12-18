@@ -24,6 +24,10 @@ form{
 	margin: 20px;
 }
 
+.formBox{
+	display: flex;
+}
+
 .find, .update, .delete{
 	border: 2px solid #FBE122;
 	padding: 10px;
@@ -45,4 +49,17 @@ button{
 	padding:5px;
 	border: 2px solid #FBE122;
 	border-radius: 5px;
+}
+
+.imgBox{
+	width:600px;
+	height:500px;
+	border: 2px solid #910000;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+img{
+	width:600px;
+	height:500px;
 }

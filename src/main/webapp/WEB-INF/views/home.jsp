@@ -12,18 +12,20 @@
 </head>
 <body>
 
-	<nav>
-		<h3>Footballer's Delight</h3>
-	</nav>
+<nav>
+	<h3>Footballer's Delight</h3>
+</nav>
 	
-	<form action="add" method="get">
-		<button>Add Players</button>
-	</form>
 	
-	<form action="show" method="get">
-		<button>Show Players</button>
-	</form>
+<form action="add" method="get">
+	<button>Add Players</button>
+</form>
 	
+<form action="show" method="get">
+	<button>Show Players</button>
+</form>
+	
+<div class="formBox">	
 	<form action="find" class="find" method="post">
 		<label>Id :</label>
 		<input name="id">
@@ -41,5 +43,12 @@
 		<input name="id">
 		<button>Delete By Id</button>
 	</form>
+	
+</div>
+
+<div class="imgBox">
+	<img src="<c:url value="/resources/static/images/img1.jpg/" />" >
+</div>	
+
 </body>
 </html>
