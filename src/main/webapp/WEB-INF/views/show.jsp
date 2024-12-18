@@ -14,6 +14,13 @@
 		<h3>Footballer's Delight</h3>
 </nav>
 
+<div class="heading">	
+	<h3 >
+		"Dedication, hard work all the time, and belief. If you think you're perfect already, then you never will be.
+		" - Cristiano Ronaldo 
+	</h3>
+</div>
+
 
 	<table >
 <tr>

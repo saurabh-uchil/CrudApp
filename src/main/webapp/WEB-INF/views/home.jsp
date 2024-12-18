@@ -15,7 +15,12 @@
 <nav>
 	<h3>Footballer's Delight</h3>
 </nav>
-	
+
+<div class="heading">	
+	<h3 >
+		"This web application is designed to help users easily manage football player information. It allows users to add new players, view details about existing players, update their information, and remove players when necessary." 
+	</h3>
+</div>
 	
 <form action="add" method="get">
 	<button>Add Players</button>

@@ -13,13 +13,37 @@
 		<h3>Footballer's Delight</h3>
 	</nav>
 	
-	<form class="addPlayers" action="addPlayers">
-		<label><h2>Add Player</h2></label><br/>
-		ID: <input name="id" placeholder="ID"/><br/>
-		Name: <input name="name" placeholder="Name"/><br/>
-		Country: <input name="country" placeholder="Country"/><br/>
-		Club: <input name="club" placeholder="Club"/><br/>
-		<button>Add Players</button>
-	</form>
+	<div class="heading">
+		<h3>"The secret is to believe in your dreams; in your potential that you can be like your star, keep searching, keep believing, and don't lose faith in yourself." - Neymar Jr.</h3>
+	</div>
+	
+		<form action="addPlayers">
+			<div>
+				<div class="form-element">
+					<label class="label">Id</label> 
+					<input name="id" placeholder="ID"/>
+				</div>
+				<div class="form-element">
+					<label>Name</label>
+					<input name="name" placeholder="Name"/>
+				</div>
+				<div class="form-element">
+					<label>Country</label>
+					 <input name="country" placeholder="Country"/>
+				</div>
+				<div class="form-element">
+					<label>Club</label> 
+					<input name="club" placeholder="Club"/>
+				</div>
+				<button>Add Player</button>
+			</div>
+			<div class="playerImg">
+				<img src="<c:url value="/resources/static/images/img2.jpg/" />" >
+			</div>
+		</form>
+		
+	
+	</div>
+	
 </body>
 </html>
