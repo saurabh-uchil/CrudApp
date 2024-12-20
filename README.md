@@ -1,6 +1,8 @@
 A simple application that performs all the CRUD operations.
 It uses Spring MVC and Hibernate ORM.
 It uses MYSQL Database for storing and retrieving the data.
+
+
 HomePage:
 ![image](https://github.com/user-attachments/assets/9c5678ff-009c-4c1e-8512-3ffa3c83e3a5)
 
